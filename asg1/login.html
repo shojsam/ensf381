@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Scoop Ice Cream | Login</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-      <img src="logo.jpeg" alt="logo" width="500" height="600" />
-      <h1>Sweet Scope Ice Cream</h1>
-    </header>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form>
-            <div class="form-group">
-                <label for="username">username:</label>
-                <input  id="username" name="username" required>
-            </div>
-            
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                 <label for="forgotpassword">forgot password</label>
-            <input type="checkbox" id="forgotpassword">
-            </div>
-           
-            <button><a href="menu_view.html"> login </button>
-        </form>
-    </div>
+  <header>
+    <img src="logo.jpeg" alt="Sweet Scoop Ice Cream Logo">
+    <h1>Sweet Scoop Ice Cream</h1>
+  </header>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+  </div>
+
+  <main class="login-main">
+    <form class="login-form" action="menu_view.html">
+      <h2>Welcome Back to Sweet Scoop</h2>
+      <label for="username">Username</label><br>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <input type="checkbox" id="forgot" name="forgot">
+      <label for="forgot">Forgot Password</label><br><br>
+
+      <button type="submit">Login</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
+  </footer>
 </body>
 </html>
