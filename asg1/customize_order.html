@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Scoop Ice Cream | Customize Order</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Sweet Scoop Ice Cream Logo">
+    <h1>Sweet Scoop Ice Cream</h1>
+  </header>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="menu_view.html">Menu</a>
+  </div>
+
+  <main class="customize-main">
+    <img class="banner" src="Picture1.webp" alt="Ice Cream Banner">
+
+    <form action="#" method="post">
+      <section class="custom-card">
+        <h2>Vanilla Dream</h2>
+        <p>Choose your ice cream type:</p>
+        <input type="radio" id="vanilla-cup" name="vanilla_type" value="cup">
+        <label for="vanilla-cup">Cup</label><br>
+        <input type="radio" id="vanilla-cone" name="vanilla_type" value="cone">
+        <label for="vanilla-cone">Cone</label><br><br>
+        <button class="summary-btn" type="button">Submit Selection</button>
+      </section>
+
+      <section class="custom-card">
+        <h2>Chocolate Bliss</h2>
+        <p>Choose your toppings:</p>
+        <input type="checkbox" id="choco-sprinkles" name="choco_toppings" value="sprinkles">
+        <label for="choco-sprinkles">Rainbow Sprinkles</label><br>
+        <input type="checkbox" id="choco-oreo" name="choco_toppings" value="oreo">
+        <label for="choco-oreo">Crushed Oreo</label><br>
+        <input type="checkbox" id="choco-caramel" name="choco_toppings" value="caramel">
+        <label for="choco-caramel">Caramel Drizzle</label><br><br>
+        <button class="summary-btn" type="button">Submit Selection</button>
+      </section>
+    </form>
+
+    <a class="summary-btn" href="order_summary.html">Finish Order</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sweet Scoop Ice Cream. All rights reserved.</p>
+  </footer>
+</body>
+</html>
