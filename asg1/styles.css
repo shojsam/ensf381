@@ -1,0 +1,285 @@
+/* Shared layout */
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #fffdf9;
+  color: #5a3a22;
+}
+
+header {
+  background-color: #f9e2c8;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  border-bottom: 2px solid #e4b48c;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #fff3e0;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #e4b48c;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: brown;
+  background-color: #f28c8c;
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 12px;
+  padding: 8px 14px;
+  display: inline-block;
+}
+
+main {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-card {
+  background-color: #fff8ee;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 14px rgba(90, 58, 34, 0.12);
+  width: 100%;
+}
+
+.section-card h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+footer {
+  background-color: #f9e2c8;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #e4b48c;
+}
+
+/* Homepage visual tuning */
+.home-page {
+  background-color: #e7e7e7;
+}
+
+.home-page header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.home-page header h1 {
+  font-size: 34px;
+}
+
+.home-page .navbar {
+  padding: 8px;
+}
+
+.home-page .navbar a {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.home-page main {
+  min-height: 430px;
+  padding-top: 55px;
+}
+
+.home-about-card {
+  max-width: 760px;
+}
+
+.home-about-card p {
+  text-align: center;
+}
+
+.home-featured-card {
+  max-width: 260px;
+}
+
+.home-featured-card ul {
+  margin: 0;
+}
+
+/* Login */
+.login-main {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding: 20px;
+}
+
+.login-form {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  background-color: #fff8ee;
+  border: 1px solid #e4b48c;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.login-form button {
+  background-color: #f28c8c;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+/* Menu view */
+.select-wrap {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.select-wrap select {
+  background-color: #fff8ee;
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: 1px solid #e4b48c;
+}
+
+.tiles-section {
+  text-align: center;
+}
+
+.tile {
+  background-color: #ffffff;
+  border: 20px solid #fff3e0;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 4px 14px rgba(90, 58, 34, 0.12);
+  display: inline-block;
+  width: calc(33.33% - 30px);
+  text-align: center;
+  vertical-align: top;
+  border-radius: 18px;
+  box-sizing: border-box;
+  min-width: 280px;
+}
+
+.tile img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.action-link,
+.btn-add,
+.btn-remove,
+.summary-btn {
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 8px 14px;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+}
+
+.action-link,
+.btn-add,
+.summary-btn {
+  background-color: #f28c8c;
+}
+
+.btn-remove {
+  background-color: #c94c4c;
+}
+
+.btn-add,
+.btn-remove,
+.summary-btn {
+  cursor: pointer;
+}
+
+/* Customize order */
+.customize-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1100px;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 900px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.custom-card {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff8ee;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(90, 58, 34, 0.12);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Order summary */
+.summary-main {
+  text-align: center;
+}
+
+.summary-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff8ee;
+}
+
+.summary-table,
+.summary-table th,
+.summary-table td {
+  border: 1px solid black;
+}
+
+.summary-table th,
+.summary-table td {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+@media (max-width: 900px) {
+  .tile {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 620px) {
+  .tile {
+    width: calc(100% - 30px);
+    min-width: 0;
+  }
+}
