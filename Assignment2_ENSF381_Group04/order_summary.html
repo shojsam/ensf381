@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sweet Scoop Ice Cream</title>
+</head>
+
+<body>
+    <header id="page_header">
+        <div>
+            <div><img src="img/logo.jpeg" alt="Sweet Scoop Ice Cream Logo"></div>
+        </div>
+
+        <div>
+            <h3>Sweet Scoop Ice Cream</h3>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu_view.html">Menu</a></li>
+        </ul>
+    </nav>
+
+    <main class="order_summary_main">
+        <h2>Order Summary</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Flavor</td>
+                    <td id="summary_flavor">Vanilla Dream</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td id="summary_type">Not selected</td>
+                </tr>
+                <tr>
+                    <td>Toppings</td>
+                    <td id="summary_toppings">None selected</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td id="summary_price">$0.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="summary_actions">
+            <a href="customize_order.html" class="action_btn">Edit Order</a>
+            <button type="button" class="action_btn">Confirm Order</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
+    </footer>
+    <script src="js/order_summary.js"></script>
+</body>
+
+</html>

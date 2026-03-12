@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <header id="page_header">
+        <div>
+            <div><img src="img/logo.jpeg" alt="Sweet Scoop Ice Cream Logo"></div>
+        </div>
+
+        <div>
+            <h3>Sweet Scoop Ice Cream</h3>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main class="login_main">
+        <div id="login_container">
+            <h2>Signup</h2>
+            <p>Create a new account.</p>
+
+            <form id="signup_form" novalidate>
+                <label for="su_username">Username:</label><br>
+                <input type="text" id="su_username" name="username" required><br><br>
+
+                <label for="su_email">Email:</label><br>
+                <input type="email" id="su_email" name="email" required><br><br>
+
+                <label for="su_password">Password:</label><br>
+                <input type="password" id="su_password" name="password" required><br><br>
+
+                <label for="su_confirm">Confirm Password:</label><br>
+                <input type="password" id="su_confirm" name="confirm_password" required><br><br>
+
+                <button type="submit" id="signup_btn">Signup</button>
+            </form>
+
+            <div id="signup_message" class="dynamic_message" aria-live="polite"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
+    </footer>
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
